@@ -1,0 +1,17 @@
+// sqrt.cpp Ч использование функции sqrt() 
+#include<iostream>
+#include<cmath> // или math.h
+int main()
+{
+	using namespace std;
+
+	double area;
+	cout << "Enter the floor area, in sqare feet, of your home: ";
+	cin >> area;
+	double side;
+	side = sqrt(area);
+	cout << "That's the equivalent of a square " << side << " feet to the side." 
+		<< endl;
+	cout << "How fascinating!" << endl;
+	return 0;
+}
