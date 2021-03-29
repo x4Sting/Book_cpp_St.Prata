@@ -1,11 +1,11 @@
-// limits.срр -- некоторые ограничения целых чисел 
+// limits.cpp -- some integer limits
 #include<iostream>
-#include<climits> // используйте заголовочный файл limits.h для старых систем
+#include<climits> // use limits.h for older systems
 int main()
 {
 	using namespace std;
-	int n_int = INT_MAX; // инициализация n_int максимальным значением int
-	short n_short = SHRT_MAX; // символы определенные в файле climits
+	int n_int = INT_MAX; // initialize n_int to max int value
+	short n_short = SHRT_MAX; // symbols defined in climits file
 	long n_long = LONG_MAX;
 	long long n_llong = LLONG_MAX;
 	// операция sizeof выдает размер типа или переменной

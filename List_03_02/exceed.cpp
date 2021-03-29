@@ -1,13 +1,13 @@
-// exceed.срр - выход за пределы для некоторых целочисленных типов 
+// exceed.cpp -- exceeding some integer limits
 #include<iostream>
-#define ZERO 0		// создает символ ZERO для значения 0
-#include <climits>	// определяет INT_MAX как наибольшее значение int
+#define ZERO 0		// makes ZERO symbol for 0 value
+#include <climits>	// defines INT_MAX as largest int value
 
 int main()
 {
 	using namespace std;
-	short sam = SHRT_MAX;	  // инициализирует переменную максимальным значением
-	unsigned short sue = sam; // нормально, поскольку переменная sam уже определена
+	short sam = SHRT_MAX;	  // initialize a variable to max value
+	unsigned short sue = sam; // okay if variable sam already defined
 	cout << "Sam has " << sam << " dollars and Sue has " << sue;
 	cout << " dollars deposited." << endl
 		<< "Add $1 to each account." << endl << "Now ";

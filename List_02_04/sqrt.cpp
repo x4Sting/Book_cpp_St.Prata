@@ -1,6 +1,8 @@
-// sqrt.cpp Ч использование функции sqrt() 
+// sqrt.cpp -- using the sqrt() function
+
 #include<iostream>
-#include<cmath> // или math.h
+#include<cmath> // or math.h
+
 int main()
 {
 	using namespace std;
